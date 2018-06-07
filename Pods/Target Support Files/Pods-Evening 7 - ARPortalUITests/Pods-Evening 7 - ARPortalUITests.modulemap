@@ -1,0 +1,6 @@
+framework module Pods_Evening_7___ARPortalUITests {
+  umbrella header "Pods-Evening 7 - ARPortalUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

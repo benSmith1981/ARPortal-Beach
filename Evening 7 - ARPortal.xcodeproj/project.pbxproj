@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222B0CE7FEB46162DA30F608 /* Pods_Evening_7___ARPortalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5C46A8749D42FADD3F706E /* Pods_Evening_7___ARPortalTests.framework */; };
+		828821A8FF1D2F0B3CDC9C8F /* Pods_Evening_7___ARPortalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8989AED18581A04838EF0D54 /* Pods_Evening_7___ARPortalUITests.framework */; };
+		90144EE820B79780009D1522 /* reggaSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90144EE720B79328009D1522 /* reggaSound.mp3 */; };
+		90A1847820B61FF4001136DA /* DataLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A1847720B61FF4001136DA /* DataLayer.swift */; };
+		90B0B74C20922B450015F6F6 /* Media.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B0B74B20922B450015F6F6 /* Media.scnassets */; };
+		90E8316F2092148000DD5C8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8316E2092148000DD5C8B /* AppDelegate.swift */; };
+		90E831712092148000DD5C8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E831702092148000DD5C8B /* ViewController.swift */; };
+		90E831742092148000DD5C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E831722092148000DD5C8B /* Main.storyboard */; };
+		90E831762092148200DD5C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E831752092148200DD5C8B /* Assets.xcassets */; };
+		90E831792092148200DD5C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E831772092148200DD5C8B /* LaunchScreen.storyboard */; };
+		90E831842092148200DD5C8B /* Evening_7___ARPortalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E831832092148200DD5C8B /* Evening_7___ARPortalTests.swift */; };
+		90E8318F2092148200DD5C8B /* Evening_7___ARPortalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8318E2092148200DD5C8B /* Evening_7___ARPortalUITests.swift */; };
+		B68D62F064165398724DB2E8 /* Pods_Evening_7___ARPortal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 081252D0DEE5A14B08D658C3 /* Pods_Evening_7___ARPortal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90E831802092148200DD5C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90E831632092148000DD5C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90E8316A2092148000DD5C8B;
+			remoteInfo = "Evening 7 - ARPortal";
+		};
+		90E8318B2092148200DD5C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90E831632092148000DD5C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90E8316A2092148000DD5C8B;
+			remoteInfo = "Evening 7 - ARPortal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		081252D0DEE5A14B08D658C3 /* Pods_Evening_7___ARPortal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Evening_7___ARPortal.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		122B4D1A6863456C5AC4E1C7 /* Pods-Evening 7 - ARPortalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evening 7 - ARPortalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Evening 7 - ARPortalTests/Pods-Evening 7 - ARPortalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1780B802DC3A9B57C51C91BC /* Pods-Evening 7 - ARPortal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evening 7 - ARPortal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Evening 7 - ARPortal/Pods-Evening 7 - ARPortal.debug.xcconfig"; sourceTree = "<group>"; };
+		3A5C46A8749D42FADD3F706E /* Pods_Evening_7___ARPortalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Evening_7___ARPortalTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4E2722DDD181A2998A4FFA /* Pods-Evening 7 - ARPortalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evening 7 - ARPortalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Evening 7 - ARPortalTests/Pods-Evening 7 - ARPortalTests.release.xcconfig"; sourceTree = "<group>"; };
+		8989AED18581A04838EF0D54 /* Pods_Evening_7___ARPortalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Evening_7___ARPortalUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90144EE720B79328009D1522 /* reggaSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = reggaSound.mp3; sourceTree = "<group>"; };
+		90A1847720B61FF4001136DA /* DataLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLayer.swift; sourceTree = "<group>"; };
+		90B0B74B20922B450015F6F6 /* Media.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Media.scnassets; sourceTree = "<group>"; };
+		90E8316B2092148000DD5C8B /* Evening 7 - ARPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Evening 7 - ARPortal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E8316E2092148000DD5C8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90E831702092148000DD5C8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90E831732092148000DD5C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90E831752092148200DD5C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90E831782092148200DD5C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90E8317A2092148200DD5C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E8317F2092148200DD5C8B /* Evening 7 - ARPortalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Evening 7 - ARPortalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E831832092148200DD5C8B /* Evening_7___ARPortalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Evening_7___ARPortalTests.swift"; sourceTree = "<group>"; };
+		90E831852092148200DD5C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E8318A2092148200DD5C8B /* Evening 7 - ARPortalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Evening 7 - ARPortalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E8318E2092148200DD5C8B /* Evening_7___ARPortalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Evening_7___ARPortalUITests.swift"; sourceTree = "<group>"; };
+		90E831902092148200DD5C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D2B5E70B35333EBA72252D /* Pods-Evening 7 - ARPortalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evening 7 - ARPortalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Evening 7 - ARPortalUITests/Pods-Evening 7 - ARPortalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB68145D4327CE2F0AD6DB69 /* Pods-Evening 7 - ARPortalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evening 7 - ARPortalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Evening 7 - ARPortalUITests/Pods-Evening 7 - ARPortalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5494B21F21F65459FCC2A1B /* Pods-Evening 7 - ARPortal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evening 7 - ARPortal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Evening 7 - ARPortal/Pods-Evening 7 - ARPortal.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90E831682092148000DD5C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68D62F064165398724DB2E8 /* Pods_Evening_7___ARPortal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E8317C2092148200DD5C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222B0CE7FEB46162DA30F608 /* Pods_Evening_7___ARPortalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E831872092148200DD5C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828821A8FF1D2F0B3CDC9C8F /* Pods_Evening_7___ARPortalUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6361B9A66320CC29E000BC60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				081252D0DEE5A14B08D658C3 /* Pods_Evening_7___ARPortal.framework */,
+				3A5C46A8749D42FADD3F706E /* Pods_Evening_7___ARPortalTests.framework */,
+				8989AED18581A04838EF0D54 /* Pods_Evening_7___ARPortalUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90E831622092148000DD5C8B = {
+			isa = PBXGroup;
+			children = (
+				90E8316D2092148000DD5C8B /* Evening 7 - ARPortal */,
+				90E831822092148200DD5C8B /* Evening 7 - ARPortalTests */,
+				90E8318D2092148200DD5C8B /* Evening 7 - ARPortalUITests */,
+				90E8316C2092148000DD5C8B /* Products */,
+				BFC72062A6F2FE05685BBA44 /* Pods */,
+				6361B9A66320CC29E000BC60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90E8316C2092148000DD5C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90E8316B2092148000DD5C8B /* Evening 7 - ARPortal.app */,
+				90E8317F2092148200DD5C8B /* Evening 7 - ARPortalTests.xctest */,
+				90E8318A2092148200DD5C8B /* Evening 7 - ARPortalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90E8316D2092148000DD5C8B /* Evening 7 - ARPortal */ = {
+			isa = PBXGroup;
+			children = (
+				90E8316E2092148000DD5C8B /* AppDelegate.swift */,
+				90E831702092148000DD5C8B /* ViewController.swift */,
+				90E831722092148000DD5C8B /* Main.storyboard */,
+				90E831752092148200DD5C8B /* Assets.xcassets */,
+				90E831772092148200DD5C8B /* LaunchScreen.storyboard */,
+				90144EE720B79328009D1522 /* reggaSound.mp3 */,
+				90E8317A2092148200DD5C8B /* Info.plist */,
+				90B0B74B20922B450015F6F6 /* Media.scnassets */,
+				90A1847720B61FF4001136DA /* DataLayer.swift */,
+			);
+			path = "Evening 7 - ARPortal";
+			sourceTree = "<group>";
+		};
+		90E831822092148200DD5C8B /* Evening 7 - ARPortalTests */ = {
+			isa = PBXGroup;
+			children = (
+				90E831832092148200DD5C8B /* Evening_7___ARPortalTests.swift */,
+				90E831852092148200DD5C8B /* Info.plist */,
+			);
+			path = "Evening 7 - ARPortalTests";
+			sourceTree = "<group>";
+		};
+		90E8318D2092148200DD5C8B /* Evening 7 - ARPortalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90E8318E2092148200DD5C8B /* Evening_7___ARPortalUITests.swift */,
+				90E831902092148200DD5C8B /* Info.plist */,
+			);
+			path = "Evening 7 - ARPortalUITests";
+			sourceTree = "<group>";
+		};
+		BFC72062A6F2FE05685BBA44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1780B802DC3A9B57C51C91BC /* Pods-Evening 7 - ARPortal.debug.xcconfig */,
+				E5494B21F21F65459FCC2A1B /* Pods-Evening 7 - ARPortal.release.xcconfig */,
+				122B4D1A6863456C5AC4E1C7 /* Pods-Evening 7 - ARPortalTests.debug.xcconfig */,
+				3C4E2722DDD181A2998A4FFA /* Pods-Evening 7 - ARPortalTests.release.xcconfig */,
+				DB68145D4327CE2F0AD6DB69 /* Pods-Evening 7 - ARPortalUITests.debug.xcconfig */,
+				92D2B5E70B35333EBA72252D /* Pods-Evening 7 - ARPortalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90E8316A2092148000DD5C8B /* Evening 7 - ARPortal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E831932092148200DD5C8B /* Build configuration list for PBXNativeTarget "Evening 7 - ARPortal" */;
+			buildPhases = (
+				5F6B56096C5EE6021051FAD8 /* [CP] Check Pods Manifest.lock */,
+				90E831672092148000DD5C8B /* Sources */,
+				90E831682092148000DD5C8B /* Frameworks */,
+				90E831692092148000DD5C8B /* Resources */,
+				56A5CF8C96B499C38E64AF48 /* [CP] Embed Pods Frameworks */,
+				F8DE0BDAC7FFD423DB6E7E53 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Evening 7 - ARPortal";
+			productName = "Evening 7 - ARPortal";
+			productReference = 90E8316B2092148000DD5C8B /* Evening 7 - ARPortal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90E8317E2092148200DD5C8B /* Evening 7 - ARPortalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E831962092148200DD5C8B /* Build configuration list for PBXNativeTarget "Evening 7 - ARPortalTests" */;
+			buildPhases = (
+				8C34F6C33C35DDD81B5D9989 /* [CP] Check Pods Manifest.lock */,
+				90E8317B2092148200DD5C8B /* Sources */,
+				90E8317C2092148200DD5C8B /* Frameworks */,
+				90E8317D2092148200DD5C8B /* Resources */,
+				7B71C78C2D69A9BB5A011024 /* [CP] Embed Pods Frameworks */,
+				CA1946DD405E2EAB55301CD3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90E831812092148200DD5C8B /* PBXTargetDependency */,
+			);
+			name = "Evening 7 - ARPortalTests";
+			productName = "Evening 7 - ARPortalTests";
+			productReference = 90E8317F2092148200DD5C8B /* Evening 7 - ARPortalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90E831892092148200DD5C8B /* Evening 7 - ARPortalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E831992092148200DD5C8B /* Build configuration list for PBXNativeTarget "Evening 7 - ARPortalUITests" */;
+			buildPhases = (
+				836E4C90F1E402BF91975D2D /* [CP] Check Pods Manifest.lock */,
+				90E831862092148200DD5C8B /* Sources */,
+				90E831872092148200DD5C8B /* Frameworks */,
+				90E831882092148200DD5C8B /* Resources */,
+				E20E452216E3699BD0DAE2CD /* [CP] Embed Pods Frameworks */,
+				958A59304F89A0388E21D6F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90E8318C2092148200DD5C8B /* PBXTargetDependency */,
+			);
+			name = "Evening 7 - ARPortalUITests";
+			productName = "Evening 7 - ARPortalUITests";
+			productReference = 90E8318A2092148200DD5C8B /* Evening 7 - ARPortalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90E831632092148000DD5C8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ben Smith";
+				TargetAttributes = {
+					90E8316A2092148000DD5C8B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					90E8317E2092148200DD5C8B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 90E8316A2092148000DD5C8B;
+					};
+					90E831892092148200DD5C8B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 90E8316A2092148000DD5C8B;
+					};
+				};
+			};
+			buildConfigurationList = 90E831662092148000DD5C8B /* Build configuration list for PBXProject "Evening 7 - ARPortal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90E831622092148000DD5C8B;
+			productRefGroup = 90E8316C2092148000DD5C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90E8316A2092148000DD5C8B /* Evening 7 - ARPortal */,
+				90E8317E2092148200DD5C8B /* Evening 7 - ARPortalTests */,
+				90E831892092148200DD5C8B /* Evening 7 - ARPortalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90E831692092148000DD5C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E831792092148200DD5C8B /* LaunchScreen.storyboard in Resources */,
+				90144EE820B79780009D1522 /* reggaSound.mp3 in Resources */,
+				90E831762092148200DD5C8B /* Assets.xcassets in Resources */,
+				90B0B74C20922B450015F6F6 /* Media.scnassets in Resources */,
+				90E831742092148000DD5C8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E8317D2092148200DD5C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E831882092148200DD5C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56A5CF8C96B499C38E64AF48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Evening 7 - ARPortal/Pods-Evening 7 - ARPortal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Evening 7 - ARPortal/Pods-Evening 7 - ARPortal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F6B56096C5EE6021051FAD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Evening 7 - ARPortal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B71C78C2D69A9BB5A011024 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Evening 7 - ARPortalTests/Pods-Evening 7 - ARPortalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		836E4C90F1E402BF91975D2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Evening 7 - ARPortalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C34F6C33C35DDD81B5D9989 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Evening 7 - ARPortalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		958A59304F89A0388E21D6F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Evening 7 - ARPortalUITests/Pods-Evening 7 - ARPortalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA1946DD405E2EAB55301CD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Evening 7 - ARPortalTests/Pods-Evening 7 - ARPortalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20E452216E3699BD0DAE2CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Evening 7 - ARPortalUITests/Pods-Evening 7 - ARPortalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8DE0BDAC7FFD423DB6E7E53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Evening 7 - ARPortal/Pods-Evening 7 - ARPortal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90E831672092148000DD5C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E831712092148000DD5C8B /* ViewController.swift in Sources */,
+				90A1847820B61FF4001136DA /* DataLayer.swift in Sources */,
+				90E8316F2092148000DD5C8B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E8317B2092148200DD5C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E831842092148200DD5C8B /* Evening_7___ARPortalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E831862092148200DD5C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E8318F2092148200DD5C8B /* Evening_7___ARPortalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90E831812092148200DD5C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90E8316A2092148000DD5C8B /* Evening 7 - ARPortal */;
+			targetProxy = 90E831802092148200DD5C8B /* PBXContainerItemProxy */;
+		};
+		90E8318C2092148200DD5C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90E8316A2092148000DD5C8B /* Evening 7 - ARPortal */;
+			targetProxy = 90E8318B2092148200DD5C8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90E831722092148000DD5C8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90E831732092148000DD5C8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90E831772092148200DD5C8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90E831782092148200DD5C8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90E831912092148200DD5C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90E831922092148200DD5C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90E831942092148200DD5C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1780B802DC3A9B57C51C91BC /* Pods-Evening 7 - ARPortal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWK29L7ZPT;
+				INFOPLIST_FILE = "Evening 7 - ARPortal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensmithinc.KLMTrip.Evening-7---ARPortal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90E831952092148200DD5C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5494B21F21F65459FCC2A1B /* Pods-Evening 7 - ARPortal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWK29L7ZPT;
+				INFOPLIST_FILE = "Evening 7 - ARPortal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensmithinc.KLMTrip.Evening-7---ARPortal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90E831972092148200DD5C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122B4D1A6863456C5AC4E1C7 /* Pods-Evening 7 - ARPortalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWK29L7ZPT;
+				INFOPLIST_FILE = "Evening 7 - ARPortalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensmithinc.KLMTrip.Evening-7---ARPortalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Evening 7 - ARPortal.app/Evening 7 - ARPortal";
+			};
+			name = Debug;
+		};
+		90E831982092148200DD5C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4E2722DDD181A2998A4FFA /* Pods-Evening 7 - ARPortalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWK29L7ZPT;
+				INFOPLIST_FILE = "Evening 7 - ARPortalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensmithinc.KLMTrip.Evening-7---ARPortalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Evening 7 - ARPortal.app/Evening 7 - ARPortal";
+			};
+			name = Release;
+		};
+		90E8319A2092148200DD5C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB68145D4327CE2F0AD6DB69 /* Pods-Evening 7 - ARPortalUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWK29L7ZPT;
+				INFOPLIST_FILE = "Evening 7 - ARPortalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensmithinc.KLMTrip.Evening-7---ARPortalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Evening 7 - ARPortal";
+			};
+			name = Debug;
+		};
+		90E8319B2092148200DD5C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D2B5E70B35333EBA72252D /* Pods-Evening 7 - ARPortalUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWK29L7ZPT;
+				INFOPLIST_FILE = "Evening 7 - ARPortalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensmithinc.KLMTrip.Evening-7---ARPortalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Evening 7 - ARPortal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90E831662092148000DD5C8B /* Build configuration list for PBXProject "Evening 7 - ARPortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E831912092148200DD5C8B /* Debug */,
+				90E831922092148200DD5C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E831932092148200DD5C8B /* Build configuration list for PBXNativeTarget "Evening 7 - ARPortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E831942092148200DD5C8B /* Debug */,
+				90E831952092148200DD5C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E831962092148200DD5C8B /* Build configuration list for PBXNativeTarget "Evening 7 - ARPortalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E831972092148200DD5C8B /* Debug */,
+				90E831982092148200DD5C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E831992092148200DD5C8B /* Build configuration list for PBXNativeTarget "Evening 7 - ARPortalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E8319A2092148200DD5C8B /* Debug */,
+				90E8319B2092148200DD5C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90E831632092148000DD5C8B /* Project object */;
+}
